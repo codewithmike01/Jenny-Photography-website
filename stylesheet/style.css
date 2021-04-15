@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: auto;
+    /* max-width: 1000px; */
+    background: #eee;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    ffont-family: 'Raleway', sans-serif;
+}
+
+/* Header text */
+
+
+.texthead{
+    height: 40vh; 
+   
+}
+
+.texthead h1{
+ 
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:80px;
+    animation-name: Headdown;
+    animation-delay: 2ms;
+    /* animation-fill-mode: forwards; */
+}
+
+
+.smallheadertext{
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* Header image */
+
+.headerimg{
+    background-image: url(../images/robin-mcskelly-88BmYBPgnGE-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.work{
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    margin-top:180px;
+    padding:8px;
+    border: 1px solid white;
+    border-radius: 15px 15px 15px 15px;
+    transition: background 20ms; 
+}
+
+.work:hover{
+    background: rgba(213, 248, 248,0.1);
+}
+
+/* IMage works */
+
+.worksection{
+    text-align: center;
+    background: rgb(107, 106, 106,0.4);
+    height: 40px;
+    padding: 10px 0px 0px 0px;
+}
+
+.card{
+    width: 80vw;
+    height: 280px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 8px 8px 10px #888;  
+    text-align: center; 
+}
+
+#img1{
+    background-image: url(../images/michael-diane-weidner-h-rP5KSC2W0-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+    background-position: center;
+}
+#img2{
+    background-image: url(../images/kunal-shinde--f0YLss50Bs-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+    background-position: center;
+}
+#img3{
+    background-image: url(../images/kimson-doan-AZMmUy2qL6A-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+    background-position: center;
+}
+#img4{
+    background-image: url(../images/karsten-winegeart-oU6KZTXhuvk-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+    background-position: center;
+}
+#img5{
+    background-image: url(../images/zack-dowdy-7aSJwfmFBe4-unsplash.jpg);
+    background-size: cover;
+    height: 90%;
+    background-position: center;
+}.imgitem{
+    margin-bottom: 3px;
+}
+.caption{
+    font-weight: bold;
+    margin:0px auto;
+    font-size: 1.3rem;  
+}
+
+.workimg{
+    margin-bottom: 60px;
+}
+
+
+/* Aout the photographer section */
+
+.aboutmesection{
+    width: 75vw;
+    padding-top: 20px;
+    height: 600px;
+    
+}
+
+.card1{
+    height: 280px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 8px 8px 10px #888;  
+    text-align: center; 
+}
+
+.aboutme{
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    
+}
+
+#aboutimg{
+    
+    margin: 0px auto;
+    background-image: url(../images/face5.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+
+}
+
+.aboutimg{ 
+    width: 250px;
+    height: 250px;
+}
+
+.aboutmesection > p{
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.skillset{
+    text-align: left;
+}
+
+.skillset > h2{
+    text-align: center;
+    font-size: 1.3rem;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.skillset p{
+    padding-left: 10px;
+    /* margin:0px auto; */
+    font-size:1.1rem;
+    padding-bottom: 20px;
+}
+
+/* Progress bar */
+
+.pbar{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+}
+
+/* .progressbar{
+    border: 2px solid black;
+} */
+
+.firstcolor{
+    margin-left: 5px;
+    width: 52%;
+    height: 25px;
+    border-radius: 15px;
+    background: rgb(212, 212, 219);
+}
+
+.firstpush{
+    margin-left: 13px;
+}
+
+.secolortext{
+    font-size: 0.9rem;
+    /* margin-top:4px; */
+    color: white;
+    text-align: center;
+}
+
+.secondcolor{
+    width: 60%;
+    position: relative;
+    top: 0px;
+    height: 25px;
+    background: green;
+    border-radius: 15px;
+}
+
+#percent1{
+    width: 90%;  
+}
+#percent2{
+    width: 55%;  
+}
+#percent3{
+    width: 80%;  
+}
+#percent4{
+    width: 50%;  
+}
+
+/* Footer */
+footer{
+    background: rgb(107, 106, 106,0.4);
+    height: 200px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer h2{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+}
+
+
+/* MEdia Query */
+
+@media screen and (max-width:524px){
+
+    .aboutmesection {
+    width: 75vw;
+    padding-top: 20px;
+    height: 650px;
+        
+    }
+
+    .skillset p{
+        font-size: 1rem;
+
+    }
+    .card{
+        height: 370px;
+    }
+    .aboutimg{ 
+        width: 150px;
+        height: 150px;
+    }
+
+    .work{
+        top: 60%;
+        left: 40%;
+        font-size: 1.2rem;
+    }
+
+    .texthead h1{
+        font-size: 1.5rem;
+    }
+    .smallheadertext{
+        font-size: 1rem;
+    }
+
+    footer p{
+       
+        font-size: 1rem;
+    }
+
+    footer h2{
+        font-size: 1.2rem;
+    }
+
+    /* Head Animation */
+@keyframes Headdown{
+    0%{
+        transform:translatex(-7000px);
+    }
+
+    25%{
+        
+    }
+
+    50%{
+        
+    }
+
+    75%{
+        
+    }
+
+    100%{
+        
+}
+
+}
+
+}
+
+
+@media screen and (min-width:525px){
+    .card1{
+        height: 600px;
+    }
+
+    .card{
+        height: 450px;
+    }
+
+}
+
+
+/* Tablet phones and mini laptop */
+@media screen and (min-width:724px){
+
+    .card{
+        height: 480px;
+    }
+
+    .work{
+        
+        top: 30%;
+        left: 70%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .worksection{
+        background: none;
+        margin-top:70px;
+        
+    }
+
+    
+
+    .headertext{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .texthead {
+        align-self: center;
+        /* height: 600px; */
+    }
+
+    .headerimg{
+        height: 100vh;
+    }
+
+    .card{
+        height: 550px;
+    }
+
+    .caption{
+        
+        font-size: 1.8rem; 
+
+    }
+   
+
+
+}
+
+/* Large screem laptop amd Desktops */
+
+@media screen and (min-width:1024px){
+
+    body{
+        /* margin: auto; */
+        /* max-width: 900px; */
+        overflow-x: hidden;
+        /* background: #eee; */ 
+    }
+
+    .caption{
+        
+        font-size: 2rem; 
+
+    }
+
+    .work{
+        top: 30%;
+        left: 70%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .headertext{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .texthead {
+        align-self: center;
+        /* height: 600px; */
+    }
+
+    .headerimg{
+        height: 100vh;
+    }
+
+    .worksection{
+        background: none;
+        margin-top:70px;
+    }
+
+    .card{
+        height: 570px;
+    }
+
+
+}
+
+
